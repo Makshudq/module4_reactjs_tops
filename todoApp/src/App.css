@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(32, 32, 32);
+}
+
+.container_wrapper {
+  display: grid;
+  place-items: center;
+}
+
+.inner_Box {
+  max-width: 768px;
+  width: 90%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #232a46;
+}
+
+.inner_Box h1 {
+  margin: 1rem;
+  color: #fff;
+}
+
+.item_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.text_div {
+  background: linear-gradient(to right, #654efc, #9e55fb);
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.text_div p {
+  color: #fff;
+}
+
+.fa-regular {
+  height: 1rem;
+  margin-left: 1rem;
+  color: #fff;
+}
+.listContainer {
+  height: 65vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.input_div {
+  background: linear-gradient(to right, #654efc, #9e55fb);
+  margin-top: 1rem;
+}
+input {
+  /* background-color: transparent; */
+  background-color: #232a46;
+  border: none;
+  margin: 0;
+  color: #fff;
+  padding: 0.5rem;
+  border: 2px solid #9c54fb;
+}
+.addbtn {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  padding: 0.4rem 1rem;
+  /* border-left: 1px solid; */
+}
+
+.deletebtn {
+  padding: 0.4rem;
+  margin: 1rem;
+  border-radius: 0.3rem;
+}
