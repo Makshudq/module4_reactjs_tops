@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.inner_container {
+  background-color: #a5ce4b;
+  padding: 0.5rem 2rem;
+  margin: 2rem;
+}
+h2 {
+  margin: 2rem;
+}
+.list_item p {
+  color: rgb(3, 3, 3);
+  background-color: white;
+  padding: 0.2rem 0.5rem;
+  margin-left: 0.5rem;
+}
+.list_item {
+  display: flex;
+  margin: 1rem;
+}
+
+.icon {
+  color: #fff;
+}
