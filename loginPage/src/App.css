@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 0;
+  /* background-image: url("wall.jpg"); */
+  background: rgba(0, 0, 0, 0.6);
+  background-position: center;
+  background-size: cover;
+}
+.fa-circle-xmark {
+  font-weight: 400;
+  font-size: 1.5rem;
+  float: right;
+  color: orange;
+}
+.opacContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  opacity: 0.7;
+}
+.loginForm {
+  width: 30vw;
+  max-width: 90%;
+  margin: auto;
+  background-color: #fff;
+  padding: 1rem;
+  z-index: 10;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+.logText {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+input[type="text"] {
+  border: none;
+  margin: 1rem;
+  width: 90%;
+  border-bottom: 1px solid;
+  padding-bottom: 0.3rem;
+  font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+}
+.checks {
+  display: flex;
+  margin: 1rem;
+}
+.log {
+  padding: 0.6rem 1rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border: 3px solid orange;
+  border-radius: 0.2rem;
+  color: orange;
+  background-color: transparent;
+}
+.forget {
+  text-align: center;
+  color: #b3b3b3;
+  font-size: 1rem;
+  margin: 1rem;
+}
+.createAccount {
+  text-align: center;
+  color: rgb(73, 73, 149);
+  font-size: 1.2rem;
+  margin: 1rem;
+}
